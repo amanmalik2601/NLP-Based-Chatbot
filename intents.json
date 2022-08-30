@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "hii",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell burgers",
+        "We have delicious burgers"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with UPI",
+        "Are you cash only?",
+        "do u have cash on delivery"
+      ],
+      "responses": [
+        " due to coivd -19 We accept net banking and upi",
+        " due to covid - 19 We accept most net banking options and upi"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "how much time it take to deliver it"
+      ],
+      "responses": [
+        "Delivery takes maximum 30 minutes ",
+        "we do not want you to wait more than 30 minutes sir"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund", "i want refund", "can u give me refund"],
+      "responses": [
+        "yes but i need to know what happened sir",
+        "i m extremely sorry..what's wrong sir can u please explain",
+        "refund will generated after knowing the issue"
+      ]
+    },
+    {
+      "tag": "unsatisfy",
+      "patterns": ["coffee was not appropriate", "i have spillage issue", "my items are missing"],
+      "responses": [
+        "i am sorry for the inconvience faced by you i am directing you to our executive please be patient",
+        "ok sir you can raise this issue with our executive i am redirecting you to one of our executives",
+        "okk sir now our executive will assist you please wait"
+      ]
+    }
+    
+  ]
+}
