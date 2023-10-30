@@ -2,7 +2,7 @@
 """
 Created on Thu Jun 30 07:24:22 2022
 
-@author: prashant sehrawat
+@author: Aman Malik
 """
 
 import random
