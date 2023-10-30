@@ -2,7 +2,7 @@
 """
 Created on Tue Jun 28 12:18:00 2022
 
-@author: prashant sehrawat
+@author: Aman Malik
 """
 
 import torch
